@@ -1,29 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
@@ -60,11 +36,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Math magicians] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> Description
 
-**[your_project__name]** is a...
+**[Math magicians]** is a website for all fans of mathematics whichis a Single Page App (SPA) that allows users to Make simple calculations and read a random math-related quote.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -99,9 +75,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Use React props.]**
+- **[Use React state]**
+- **[Handle events in a React app.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,27 +102,20 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+**[Git]**
+**[Vs code]**
+**[React]**
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+To get the content of this project locally you need to run this command in your terminal:
+
+$ git clone https://github.com/banzaman/Math-magicians.git
+$ cd Math-magicians
 
 ### Install
 
@@ -177,13 +146,12 @@ Example command:
 
 To run tests, run the following command:
 
-<!--
-Example command:
+npm i @testing-library/jest-dom
+npm install --save-dev @testing-library/jest-dom
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+$ npm install @testing-library/react react-test-renderer jest-dom --save-dev
+
+
 
 ### Deployment
 
@@ -205,17 +173,10 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Mark Rubanza**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [Banzaman](https://github.com/banzaman)
+- LinkedIn: [Mark Rubanza Anderson](https://www.linkedin.com/in/mark-rubanza-anderson/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,9 +186,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Handle events in a React app]**
+- [ ] **[Use React life cycle methods.]**
+- [ ] **[Use React Router]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -257,7 +218,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank  https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
