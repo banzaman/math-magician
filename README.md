@@ -27,7 +27,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [LEADERBOARD] <a name="about-project"></a>
+# 📖 [MATH-MAGICIAN] <a name="about-project"></a>
 
 **[Math-magician]** an app used to learn to send, receive data from an API, use API documentation, understand and use JSON and make JavaScript code asynchronous.
 
