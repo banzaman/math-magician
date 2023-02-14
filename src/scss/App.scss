@@ -46,8 +46,6 @@ main {
     }
 
     button {
-      @extend %btn-properties;
-
       &:last-child {
         background-color: $secondary-color;
       }
