@@ -39,19 +39,11 @@ main {
   border: 1px solid #272727;
 }
 
-main ul {
-  list-style: none;
-  width: 100%;
-}
-
-main li {
-  width: 100%;
-}
-
-main li input {
+main .input {
   width: 100%;
   flex: 1;
-  padding: 1.2rem 1rem;
+  justify-content: flex-end;
+  padding: 1.2rem;
   border: none;
   outline: none;
   font-size: 1.5rem;
@@ -60,8 +52,17 @@ main li input {
   text-align: end;
 }
 
-main li input:hover {
+main .input:hover {
   cursor: pointer;
+}
+
+main ul {
+  list-style: none;
+  width: 100%;
+}
+
+main li {
+  width: 100%;
 }
 
 main li button:last-child {
