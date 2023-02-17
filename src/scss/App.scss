@@ -47,6 +47,7 @@ main {
     width: 100%;
 
     button {
+      //ignore at-rule-no-unknown
       @extend %btn-properties;
 
       &:last-child {
