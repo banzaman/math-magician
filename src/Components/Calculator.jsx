@@ -16,7 +16,6 @@ const Calculator = () => {
     ['0', '.', '='],
   ];
 
-  //  handleKeyPress = (event) => this.setState((obj) => calculate(obj, event.target.textContent));
   const handleKeyPress = (event) => {
     const calculator = calculate(state, event.target.textContent);
     setState({ ...state, ...calculator });
