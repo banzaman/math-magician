@@ -19,7 +19,8 @@
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Usage](#usage)
-   [👥 Authors](#authors)
+   -[👥 Authors](#authors)
+   - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [❓ FAQ (OPTIONAL)](#faq)
@@ -52,9 +53,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[GIT FLOW]**
-- **[Good HTML, JS and CSS practices]**
-- **[Dynamically]**
+- **[Routes]**
+- **[Use Styles in React]**
+- **[React Hooks]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,6 +173,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[Mobile Version]**
+- [ ] **[Scientific calculator]**
+- [ ] **[More Styling]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -182,11 +196,17 @@ Feel free to check the [issues page](https://github.com/banzaman/math-magician/i
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## 🙏  Acknowledgments
+
+    -Thanks to everyone who will get time to check this code especially to code reviewers.
+
+
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="#support"></a>
 
-If you like this project...
+Give a ⭐ if you like this project! ❤️❤️❤️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -210,6 +230,3 @@ If you like this project...
 
 This project is [MIT](/LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
