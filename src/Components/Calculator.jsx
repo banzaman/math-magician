@@ -16,39 +16,46 @@ const Calculator = () => {
     ['0', '.', '='],
   ];
 
+  //  handleKeyPress = (event) => this.setState((obj) => calculate(obj, event.target.textContent));
   const handleKeyPress = (event) => {
     const calculator = calculate(state, event.target.textContent);
     setState({ ...state, ...calculator });
   };
 
   return (
-    <section className="items-container">
-      <div className="flex-center result">
-        <div className="input">
-          {`
-        ${state.total || state.operation || state.next
-            ? `${state.total || ''} ${state.operation || ''} ${state.next || ''}`
-            : '0'}
-          `}
+    <div className=" section flex-center">
+      <h2 className="second-title">
+        Let&apos;s do some Math
+        <span> !</span>
+      </h2>
+      <section className="calculator-section">
+        <div className="flex-center result">
+          <div className="input">
+            {`
+          ${state.total || state.operation || state.next
+              ? `${state.total || ''} ${state.operation || ''} ${state.next || ''}`
+              : '0'}
+            `}
+          </div>
         </div>
-      </div>
-      <ul className="items-container">
-        {keyBtns.map((keys) => (
-          <li className="flex-center keyItem" key={keys}>
-            {keys.map((key) => (
-              <button
-                className="btn"
-                type="button"
-                onClick={handleKeyPress}
-                key={key}
-              >
-                {key}
-              </button>
-            ))}
-          </li>
-        ))}
-      </ul>
-    </section>
+        <ul className="items-container">
+          {keyBtns.map((keys) => (
+            <li className="flex-center keyItem" key={keys}>
+              {keys.map((key) => (
+                <button
+                  className="btn"
+                  type="button"
+                  onClick={handleKeyPress}
+                  key={key}
+                >
+                  {key}
+                </button>
+              ))}
+            </li>
+          ))}
+        </ul>
+      </section>
+    </div>
   );
 };
 export default Calculator;
