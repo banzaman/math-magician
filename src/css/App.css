@@ -6,7 +6,7 @@
   overflow: hidden;
 }
 
-main .calculator-section .keyItem button {
+.main .calculator-section .keyItem button {
   width: 25%;
   height: 60px;
   color: #272727;
@@ -134,33 +134,35 @@ body {
   align-items: center;
 }
 
-main {
+.main {
   width: 100%;
   height: auto;
-  background-image: linear-gradient(to top, rgba(133, 133, 252, 0.18), #7d7888), url("../img/background.jpg");
+  background-image:
+    linear-gradient(to top, rgba(133, 133, 252, 0.18), #7d7888),
+    url("../img/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 1.2rem;
 }
 
-main .section {
+.main .section {
   height: 100vh;
   justify-content: space-around;
   align-items: flex-start;
   padding: 3rem 1rem 0;
 }
 
-main .section h2 {
+.main .section h2 {
   width: 30%;
 }
 
-main .calculator-section {
+.main .calculator-section {
   max-width: 500px;
   width: 70%;
   border: 1px solid #272727;
 }
 
-main .calculator-section .input {
+.main .calculator-section .input {
   width: 100%;
   flex: 1;
   justify-content: flex-end;
@@ -173,32 +175,32 @@ main .calculator-section .input {
   text-align: end;
 }
 
-main .calculator-section .input:hover {
+.main .calculator-section .input:hover {
   cursor: pointer;
 }
 
-main .calculator-section ul {
+.main .calculator-section ul {
   list-style: none;
   width: 100%;
   border: none;
   outline: none;
 }
 
-main .calculator-section .keyItem {
+.main .calculator-section .keyItem {
   width: 100%;
 }
 
-main .calculator-section .keyItem button:last-child {
+.main .calculator-section .keyItem button:last-child {
   background-color: orange;
 }
 
-main .calculator-section .keyItem button:hover {
+.main .calculator-section .keyItem button:hover {
   cursor: pointer;
   background-color: rgba(185, 185, 185, 0.658);
   transition: all 0.4s ease-in-out;
 }
 
-main .calculator-section .keyItem:last-child button:first-child {
+.main .calculator-section .keyItem:last-child button:first-child {
   width: 50%;
 }
 
@@ -209,26 +211,26 @@ main .calculator-section .keyItem:last-child button:first-child {
     margin-bottom: 0;
   }
 
-  main .section h2 {
+  .main .section h2 {
     width: 40%;
   }
 
-  main .calculator-section {
+  .main .calculator-section {
     width: 50%;
     margin-right: 2rem;
   }
 
-  main .keyItem .btn {
+  .main .keyItem .btn {
     height: 70px;
   }
 
-  main .home-section {
+  .main .home-section {
     width: 85%;
     max-width: 992px;
     margin: 0 auto;
   }
 
-  main .home-section h2 {
+  .main .home-section h2 {
     font-size: 2.4rem;
     padding: 1rem 0;
   }
