@@ -54,7 +54,7 @@ const Quote = () => {
   } = dailyQuote;
 
   return (
-    <div className="quote">
+    <section className="quote-section">
       <h2>Today&apos;s Quote</h2>
       {isLoading && <p>Daily Quote is Loading...</p>}
       {hasError && <p>An Error ocurrs while loading the Daily Quote.</p>}
@@ -68,7 +68,7 @@ const Quote = () => {
         </p>
       </>
       ) }
-    </div>
+    </section>
   );
 };
 
